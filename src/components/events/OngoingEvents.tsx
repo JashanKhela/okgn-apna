@@ -16,7 +16,7 @@ const ongoingEvents = [
       "Weekly skill-building sessions for ages 5–12. Open to all levels. Includes special invite-only coaching clinics.",
     date: "March 29th, April 5th, April 12th — Saturdays 2–4pm",
     location: "Local Field TBD",
-    image: "/HeroHomePage.jpg",
+    image: "/upcoming-event-1.jpg",
   },
   {
     title: "Drop-In Soccer (Year Round)",
@@ -24,7 +24,7 @@ const ongoingEvents = [
       "Open-invite recreational soccer for players of all levels. Come as you are and enjoy the game with others from the community.",
     date: "Weekly — Ongoing",
     location: "Various Locations",
-    image: "/HeroHomePage.jpg",
+    image: "/upcoming-event-2.jpg",
   },
   {
     title: "Men’s League Teams",
@@ -32,7 +32,7 @@ const ongoingEvents = [
       "Competitive play in Div 1, 3A, and Over 35 divisions. Managed and organized by our club members for structured league competition.",
     date: "Spring/Summer League Season",
     location: "Kelowna & Surrounding Fields",
-    image: "/HeroHomePage.jpg",
+    image: "/upcoming-event-3.jpg",
   },
 ];
 

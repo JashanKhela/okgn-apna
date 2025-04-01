@@ -64,14 +64,14 @@ export default function TournamentEvents() {
                   <p className="!text-md !text-[#000000] font-bold">
                     {event.description}
                   </p>
-                  <p className="!text-sm !text-[#000000] font-bold">
+                  <p className="!text-md !text-[#000000] font-bold">
                     {event.date}
                   </p>
-                  <p className="!text-sm !text-[#000000] italic">
+                  <p className="!text-md !text-[#000000]">
                     {event.location}
                   </p>
-                  <p className="!text-sm !text-[#000000] italic">
-                    👥 Max Teams: {event.maxTeams}
+                  <p className="!text-md !text-[#000000] italic">
+                   Max Teams: {event.maxTeams}
                   </p>
                 </CardContent>
               </Card>

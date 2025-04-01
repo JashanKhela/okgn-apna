@@ -20,9 +20,7 @@ export default function AboutCTA() {
           Whether it’s a new initiative, a partnership, or just a quick hello — reach out and connect.
         </p>
         <Link href="/contact">
-          <Button
-            className="bg-[#ee3042] text-[white] hover:bg-[#ee3042/50] hover:scale-[1.2] transition-all text-sm"
-          >
+        <Button className="bg-[#ee3042] hover:bg-[#ee3042]/90 hover:scale-[1.03] transition-all duration-200 text-white text-lg sm:text-sm px-8 py-4 sm:px-5 sm:py-2 w-full sm:w-auto">
             Contact Us
           </Button>
         </Link>

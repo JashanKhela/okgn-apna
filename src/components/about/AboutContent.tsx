@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 export default function AboutContent() {
   return (
@@ -25,7 +27,13 @@ export default function AboutContent() {
   OKGN Apna is a grassroots soccer club dedicated to building community through sport — proudly rooted in the South Asian community here in the Okanagan. We support competitive men’s teams in Division 1, 3A, and Over 35, host an annual community tournament, and organize open-invite games throughout the year. Now, we&apos;re expanding into youth development by guiding kids aged 5 and up through camps, coaching, and skill-based pathways in partnership with Okanagan United FC. Whether you&apos;re a player, a parent, or a volunteer — there’s a place for you here.
   for you here.
         </motion.p>
+        <Link href="/events">
+        <Button className="bg-[#ee3042] hover:bg-[#ee3042]/90 hover:scale-[1.03] transition-all duration-200 text-white text-lg sm:text-sm px-8 py-4 sm:px-5 sm:py-2 w-full sm:w-auto">
+           View Our Events Schedule
+          </Button>
+        </Link>
       </div>
+      
     </section>
   );
 }

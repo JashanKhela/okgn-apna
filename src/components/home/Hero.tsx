@@ -24,14 +24,14 @@ export default async function Hero() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-2 justify-center md:justify-start">
             <Link href="/events">
-              <Button className="bg-[#ee3042] hover:bg-[#ee3042]/90 hover:scale-[1.03] transition-all duration-200 text-white text-sm">
+              <Button className="bg-[#ee3042] hover:bg-[#ee3042]/90 hover:scale-[1.03] transition-all duration-200 text-white text-lg sm:text-xl px-8 py-5 sm:px-10 sm:py-6 w-full sm:w-auto">
                 View Events
               </Button>
             </Link>
             <Link href="/contact">
               <Button
                 variant="outline"
-                className="text-[#ee3042] border-[#ee3042] hover:bg-[#ee3042]/10 hover:text-white hover:bg-[#ee3042] hover:border-[#ee3042] hover:scale-[1.03] transition-all duration-200 text-sm"
+                className="text-[#ee3042] border-[#ee3042] hover:bg-[#ee3042]/10 hover:text-white hover:bg-[#ee3042] hover:border-[#ee3042] hover:scale-[1.03] transition-all duration-200 text-lg sm:text-xl px-8 py-5 sm:px-10 sm:py-6 w-full sm:w-auto"
               >
                 Get in Touch
               </Button>
