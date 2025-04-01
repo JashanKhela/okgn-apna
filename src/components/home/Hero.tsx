@@ -12,7 +12,7 @@ export default async function Hero() {
             Bringing Communities Together Through Sports
           </h1>
           <h2 className="text-lg md:text-xl text-gray-800 font-medium mb-4">
-            Uniting Okanagan’s Diverse Communities Through Sport & Culture
+            Uniting Okanagan’s Diverse Communities Through Sport & Cultures
           </h2>
           <p className="!text-gray-700 !text-base !leading-relaxed !mb-6">
             The OKGN Apna Sports and Cultural Society is a non-profit
