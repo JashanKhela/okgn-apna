@@ -10,19 +10,19 @@ const events = [
     name: "Spring Kickoff Tournament",
     date: "April 27, 2024",
     desc: "Join us for a full day of soccer, food, and community fun. Open to all ages and skill levels!",
-    image: "/event1.jpg",
+    image: "/HeroHomePage.png",
   },
   {
     name: "Youth Soccer Day",
     date: "May 12, 2024",
     desc: "A fun and inclusive event for youth players to showcase their skills and meet new friends.",
-    image: "/event2.jpg",
+    image: "/HeroHomePage.png",
   },
   {
     name: "Community Culture Cup",
     date: "June 9, 2024",
     desc: "Celebrate cultural diversity through sport. Teams are encouraged to represent their roots!",
-    image: "/event3.jpg",
+    image: "/HeroHomePage.png",
   },
 ];
 

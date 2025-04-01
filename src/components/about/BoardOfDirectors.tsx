@@ -4,15 +4,15 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const boardMembers = [
-  { name: "Indy Dhial", role: "President", image: "/board/indy.jpg" },
-  { name: "Ryan Aujla", role: "Vice President", image: "/board/ryan.jpg" },
-  { name: "Vishal Sharma", role: "Treasurer", image: "/board/vishal.jpg" },
-  { name: "Rajinder Bajwa", role: "Secretary", image: "/board/rajinder.jpg" },
-  { name: "Surej Dhillon", role: "Director", image: "/board/surej.jpg" },
-  { name: "Ricky Dhillon", role: "Director", image: "/board/ricky.jpg" },
-  { name: "Surinder Gosal", role: "Director", image: "/board/surinder.jpg" },
-  { name: "TJ Grewal", role: "Director", image: "/board/tj.jpg" },
-  { name: "Jasvinder Heera", role: "Director", image: "/board/jasvinder.jpg" },
+  { name: "Indy Dhial", role: "President", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Ryan Aujla", role: "Vice President", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Vishal Sharma", role: "Treasurer", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Rajinder Bajwa", role: "Secretary", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Surej Dhillon", role: "Director", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Ricky Dhillon", role: "Director", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Surinder Gosal", role: "Director", image: "/OKGN-APNA-LOGO.png" },
+  { name: "TJ Grewal", role: "Director", image: "/OKGN-APNA-LOGO.png" },
+  { name: "Jasvinder Heera", role: "Director", image: "/OKGN-APNA-LOGO.png" },
 ];
 
 export default function BoardOfDirectors() {
