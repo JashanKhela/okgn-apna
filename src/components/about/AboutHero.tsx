@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 export default function AboutHero() {
   return (
     <section className="w-full">
-      <div className="relative w-full h-[300px] md:h-[400px]">
+      <div className="relative w-full h-[300px] md:h-[450px]">
         <Image
-          src="/AboutHero.jpg"
+          src="/AboutHero3.jpg"
           alt="OKGN Apna community"
           fill
           className="object-cover brightness-[0.75]"
@@ -29,11 +29,9 @@ export default function AboutHero() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-white text-lg mt-2 max-w-2xl"
+            className="text-white !text-lg mt-2 max-w-2xl"
           >
-            OKGN Apna is a community-first club built on connection, culture,
-            and love for the game. We’re here to bring people together — on and
-            off the field.
+OKGN Apna is a community-first sports and cultural society rooted in connection, culture, and collective growth. While soccer is a big part of what we do, our mission goes far beyond the game. From youth mentorship and coaching programs to cultural events, volunteer opportunities, and open-invite recreation, we’re here to create meaningful spaces for people to come together — on and off the field. 
           </motion.p>
         </div>
       </div>

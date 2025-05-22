@@ -6,11 +6,11 @@ export default function ContactInfo() {
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
         <div>
           <h3 className="text-lg font-semibold text-[#ee3042]">Phone</h3>
-          <p className="!text-[#7c7c7c] !mt-2">+1 (250) 123-4567</p>
+          <p className="!text-[#7c7c7c] !mt-2">+1 (250)-863-6565</p>
         </div>
         <div>
           <h3 className="text-lg font-semibold text-[#ee3042]">Email</h3>
-          <p className="!text-[#7c7c7c] !mt-2">hello@okgnapna.com</p>
+          <p className="!text-[#7c7c7c] !mt-2">okgnapna@gmail.com</p>
         </div>
         <div>
           <h3 className="!text-lg font-semibold text-[#ee3042]">Location</h3>

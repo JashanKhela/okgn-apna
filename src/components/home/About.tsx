@@ -21,7 +21,7 @@ export default function About() {
             More Than Just Soccer
           </h2>
           <p className="!text-[#7c7c7c] !text-lg !leading-relaxed">
-            OKGN Apna is more than just a sports organization — we’re a community-powered movement rooted in connection, belonging, and pride. Through soccer, cultural events, and inclusive outreach, we’re creating spaces where people of all ages and backgrounds feel welcome, seen, and inspired.
+          OKGN Apna is more than just a soccer club — we’re a sports and cultural society dedicated to uplifting our community through inclusive, grassroots programming. From competitive soccer leagues and youth development camps to cultural celebrations, community outreach, and drop-in recreational activities, our goal is to create a space where people from all walks of life can come together. Whether you&apos;re looking to play, coach, volunteer, or simply connect, we provide year-round opportunities to build friendships, stay active, and celebrate shared values. Our events are open to all — kids, families, newcomers, and lifelong community members alike.
           </p>
           <Link href="/about">
             <Button className="bg-[#ee3042] hover:bg-[#ee3042]/90 hover:scale-[1.03] transition-all duration-200 text-white text-lg sm:text-sm px-8 py-4 sm:px-5 sm:py-2 w-full sm:w-auto">

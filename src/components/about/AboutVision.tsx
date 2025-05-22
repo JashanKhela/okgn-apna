@@ -34,7 +34,7 @@ export default function AboutVision() {
             Our Vision
           </h2>
           <p className="!text-[#7c7c7c] !text-lg !leading-relaxed">
-            Our vision is to build a long-lasting grassroots soccer movement rooted in pride, culture, and opportunity. We want to empower future generations — especially youth — with the tools, mentorship, and support to grow through sport. As we grow, we’re focused on strengthening community ties, activating new volunteers, and ensuring everyone has a place to play, lead, and belong.
+          Our vision is to build a long-lasting, community-driven movement rooted in cultural pride, inclusion, and opportunity. We aim to empower future generations — especially youth — with the tools, mentorship, and experiences they need to thrive. Through sports, cultural programming, and community initiatives, we’re creating spaces where people can connect, grow, and give back. As we continue to expand, we remain committed to strengthening community ties, supporting new leaders and volunteers, and ensuring everyone has a place to participate, lead, and belong.
           </p>
         </motion.div>
       </div>
