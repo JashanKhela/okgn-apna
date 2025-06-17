@@ -72,7 +72,7 @@ export default function FreeYouthCampPage() {
           </p>
 
           <a
-            href="mailto:okgnapna@gmail.com?subject=Free Youth Soccer Camp Registration&body=Please register my child for the Free Youth Soccer Camp on June 28. Include their name, age, and any relevant experience."
+            href="mailto:okgnapna@gmail.com?subject=Free Youth Soccer Camp Registration&body=Please enter participants name, age, and any relevant medical information."
             rel="noopener noreferrer"
             className="mt-6 inline-block bg-[#ee3042] hover:bg-[#ee3042]/90 text-white px-8 py-4 text-lg font-semibold rounded shadow hover:scale-105 transition"
           >

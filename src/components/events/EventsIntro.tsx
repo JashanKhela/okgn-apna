@@ -15,7 +15,7 @@ export default function EventsIntro() {
         <h1 className="text-4xl md:text-5xl font-bold text-[white]">
           Our Events
         </h1>
-        <p className="!text-[#white] !text-lg !leading-relaxed">
+        <p className="!text-white !text-lg !leading-relaxed">
           We host soccer events for all ages and levels — from drop-in sessions and youth camps to full-scale tournaments and league matches. Whether you&apos;re learning, competing, or just having fun, there’s a place for you here.
         </p>
       </motion.div>
