@@ -5,24 +5,29 @@ import Image from "next/image";
 
 const sponsors = [
   {
-    name: "Community Credit Union",
-    description: "Proudly supporting grassroots sports in the Okanagan region.",
-    logo: "/OKGN-APNA-LOGO.png",
+    name: "Grewal Group",
+    description: "Leading real estate and business group proudly supporting grassroots community sports in the Okanagan.",
+    logo: "/grewal group logo.jpg",
   },
   {
-    name: "Okanagan Eats",
-    description: "Fueling players and fans with local flavor.",
-    logo: "/OKGN-APNA-LOGO.png",
+    name: "Learner's Driving School",
+    description: "Teaching the next generation of safe drivers — and backing future community champions.",
+    logo: "/DrivingSchool.jpg",
   },
   {
-    name: "Soccer Pro Gear",
-    description: "Providing premium gear for every level of play.",
-    logo: "/OKGN-APNA-LOGO.png",
+    name: "Loudoun Development + Construction",
+    description: "Building Kelowna’s future — on the field and off — through support for inclusive sports programs.",
+    logo: "/construction.jpg",
   },
   {
-    name: "Dhillon Law",
-    description: "Advocating for fairness on and off the field.",
-    logo: "/OKGN-APNA-LOGO.png",
+    name: "DPS Drywall Ltd.",
+    description: "Committed to quality and proud to back youth and community-based sports in the valley.",
+    logo: "/Drywall.jpg",
+  },
+  {
+    name: "Khela Tech",
+    description: "Powering local movements with digital innovation, automation, and tech for impact.",
+    logo: "/KhelaTech.png",
   },
 ];
 
@@ -34,7 +39,7 @@ export default function SponsorsGrid() {
           Our Current Sponsors
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {sponsors.map((sponsor, i) => (
             <motion.div
               key={i}
@@ -42,9 +47,9 @@ export default function SponsorsGrid() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
               viewport={{ once: true }}
-              className="bg-[#fef6f6] rounded-xl shadow-sm p-6 flex flex-col items-center text-center hover:shadow-md transition"
+              className="bg-[#fef6f6] rounded-xl shadow-sm px-4 pt-4 pb-3 flex flex-col items-center text-center hover:shadow-md transition"
             >
-              <div className="relative w-32 h-32 mb-4">
+              <div className="relative w-40 h-40 sm:w-48 sm:h-48 mb-4 bg-white rounded-md border border-gray-200">
                 <Image
                   src={sponsor.logo}
                   alt={`${sponsor.name} logo`}
@@ -52,10 +57,10 @@ export default function SponsorsGrid() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-black mb-2">
+              <h3 className="text-lg font-semibold text-black mb-1">
                 {sponsor.name}
               </h3>
-              <p className="!text-sm !text-[#7c7c7c]">{sponsor.description}</p>
+              <p className="!text-sm !text-[#7c7c7c] px-2">{sponsor.description}</p>
             </motion.div>
           ))}
         </div>

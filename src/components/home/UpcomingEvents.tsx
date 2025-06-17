@@ -4,35 +4,33 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const events = [
   {
-    name: "Spring Kickoff Tournament",
-    date: "April 27, 2024",
-    desc: "Join us for a full day of soccer, food, and community fun. Open to all ages and skill levels!",
-    image: "/upcoming-event-1.jpg",
-  },
-  {
-    name: "Youth Soccer Day",
-    date: "May 12, 2024",
-    desc: "A fun and inclusive event for youth players to showcase their skills and meet new friends.",
-    image: "/upcoming-event-2.jpg",
-  },
-  {
-    name: "Community Culture Cup",
-    date: "June 9, 2024",
-    desc: "Celebrate cultural diversity through sport. Teams are encouraged to represent their roots!",
-    image: "/upcoming-event-3.jpg",
-  },
+    title: "Free Youth Soccer Camp – June 28th!",
+    slug: "free-youth-camp", // ✅ Add slug here
+    description:
+      "Celebrate the start of summer with a FREE soccer camp for kids aged 5–15. Led by experienced coaches, this camp focuses on skill-building, teamwork, and fun mini games. Perfect for beginners and experienced players alike.",
+    date: "Friday, June 28 — 9:30 AM Start",
+    location: "Rutland Dome, Kelowna",
+    image: "/event1.jpg",
+  }
 ];
+
 
 export default function UpcomingEvents() {
   return (
     <section className="w-full bg-[#f5f5f5] py-20 px-6">
       <div className="max-w-6xl mx-auto text-center space-y-6 mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#ee3042]">Upcoming Events</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-[#ee3042]">
+          Upcoming Events
+        </h2>
         <p className="!text-[#7c7c7c] !max-w-2xl !mx-auto !text-base !md:text-lg !leading-relaxed">
-          We’re always holding exciting events and everyone is welcome to sign up — whether you’re a seasoned player or just getting started. Have questions? <span className="text-[#ee3042] font-medium">Reach out anytime!</span>
+          We’re always holding exciting events and everyone is welcome to sign
+          up — whether you’re a seasoned player or just getting started. Have
+          questions?{" "}
+          <span className="text-[#ee3042] font-medium">Reach out anytime!</span>
         </p>
       </div>
 
@@ -49,20 +47,24 @@ export default function UpcomingEvents() {
               <div className="relative w-full h-48">
                 <Image
                   src={event.image}
-                  alt={event.name}
+                  alt={event.title}
                   fill
                   className="object-cover"
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-[#040404] text-xl font-bold">{event.name}</CardTitle>
+                <CardTitle className="text-[#040404] text-xl font-bold">
+                  {event.title}
+                </CardTitle>
               </CardHeader>
               <CardContent className="flex flex-col justify-between flex-grow space-y-4">
                 <div className="text-[#7c7c7c] text-sm">{event.date}</div>
-                <p className="!text-md !text-[#040404]">{event.desc}</p>
-                <Button className="mt-auto bg-[#ee3042] hover:bg-[#d42a3a] text-white text-sm w-fit self-start">
-                  Sign Up
-                </Button>
+                <p className="!text-md !text-[#040404]">{event.description}</p>
+                <Link href={`/events/${event.slug}`}>
+                  <Button className="mt-auto bg-[#ee3042] hover:bg-[#d42a3a] text-white text-sm w-fit self-start">
+                    View Event
+                  </Button>
+                </Link>
               </CardContent>
             </Card>
           </motion.div>
