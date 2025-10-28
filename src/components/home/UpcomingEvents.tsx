@@ -7,15 +7,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const events = [
-  {
-    title: "Free Youth Soccer Camp – June 28th!",
-    slug: "free-youth-camp", // ✅ Add slug here
-    description:
-      "Celebrate the start of summer with a FREE soccer camp for kids aged 5–15. Led by experienced coaches, this camp focuses on skill-building, teamwork, and fun mini games. Perfect for beginners and experienced players alike.",
-    date: "Friday, June 28 — 9:30 AM Start",
-    location: "Rutland Dome, Kelowna",
-    image: "/event1.jpg",
-  }
+{
+  title: "Fall Youth Soccer Camp – November 11th!",
+  description:
+    "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–15. Perfect for all levels, with skill-building, games, and teamwork sessions.",
+  date: "Tuesday, November 11 — 1:00 PM to 2:30 PM",
+  location: "Rutland Sports Dome — 705 Rutland Rd South",
+  image: "/event1.jpg", 
+  slug: "/fall-youth-camp" 
+}
 ];
 
 

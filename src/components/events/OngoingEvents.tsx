@@ -11,7 +11,7 @@ import {
 
 const ongoingEvents = [
   {
-    title: "Youth Soccer Camps & Coaching",
+    title: "Fall Soccer Camps & Coaching",
     description:
       "Weekly skill-building sessions for ages 5–12. Open to all levels. Includes special invite-only coaching clinics.",
     date: "March 29th, April 5th, April 12th — Saturdays 2–4pm",
