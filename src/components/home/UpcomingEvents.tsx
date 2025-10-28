@@ -14,7 +14,7 @@ const events = [
   date: "Tuesday, November 11 — 1:00 PM to 2:30 PM",
   location: "Rutland Sports Dome — 705 Rutland Rd South",
   image: "/event1.jpg", 
-  slug: "/fall-youth-camp" 
+  slug: "fall-youth-camp" 
 }
 ];
 
