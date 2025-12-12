@@ -8,13 +8,13 @@ import Link from "next/link";
 
 const events = [
 {
-  title: "Fall Youth Soccer Camp – November 11th!",
+  title: "Winter Youth Soccer Camp – December 11th!",
   description:
-    "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–15. Perfect for all levels, with skill-building, games, and teamwork sessions.",
-  date: "Tuesday, November 11 — 1:00 PM to 2:30 PM",
+    "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–14. Perfect for all levels, with skill-building, games, and teamwork sessions.",
+  date: "Saturday, December 11 — 2:00 PM to 3:15 PM",
   location: "Rutland Sports Dome — 705 Rutland Rd South",
-  image: "/event1.jpg", 
-  slug: "fall-youth-camp" 
+  image: "/WinterCamp.png", 
+  slug: "winter-youth-camp"
 }
 ];
 
@@ -43,8 +43,9 @@ export default function UpcomingEvents() {
             transition={{ duration: 0.4, delay: i * 0.1 }}
             viewport={{ once: true }}
           >
-            <Card className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow bg-white h-full flex flex-col">
-              <div className="relative w-full h-48">
+            <Card className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow bg-white h-full flex flex-col
+            pt-0">
+              <div className="relative w-full h-60">
                 <Image
                   src={event.image}
                   alt={event.title}
