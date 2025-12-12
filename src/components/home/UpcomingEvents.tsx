@@ -8,10 +8,10 @@ import Link from "next/link";
 
 const events = [
 {
-  title: "Winter Youth Soccer Camp – December 11th!",
+  title: "Winter Youth Soccer Camp – December 13th!",
   description:
     "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–14. Perfect for all levels, with skill-building, games, and teamwork sessions.",
-  date: "Saturday, December 11 — 2:00 PM to 3:15 PM",
+  date: "Saturday, December 13 — 2:00 PM to 3:15 PM",
   location: "Rutland Sports Dome — 705 Rutland Rd South",
   image: "/WinterCamp.png", 
   slug: "winter-youth-camp"

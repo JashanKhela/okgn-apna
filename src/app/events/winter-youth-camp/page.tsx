@@ -33,7 +33,7 @@ export default function WinterYouthCampPage() {
       email: formData.get("email"),
       phone: formData.get("phone"),
       skill_level: formData.get("skill_level"),
-      event: "Winter Youth Soccer Camp - Dec 11",
+      event: "Winter Youth Soccer Camp - Dec 13",
       timestamp: new Date().toISOString(),
     };
 
@@ -140,7 +140,7 @@ export default function WinterYouthCampPage() {
             Event Details
           </h3>
           <ul className="space-y-2 text-gray-800">
-            <li><strong>Date:</strong> Saturday, December 11</li>
+            <li><strong>Date:</strong> Saturday, December 13th</li>
             <li><strong>Time:</strong> 2:00 PM to 3:15 PM</li>
             <li><strong>Location:</strong> Rutland Sports Dome, 705 Rutland Rd South</li>
             <li><strong>Cost:</strong> Free</li>
