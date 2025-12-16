@@ -7,15 +7,15 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const events = [
-{
-  title: "Winter Youth Soccer Camp – December 13th!",
-  description:
-    "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–14. Perfect for all levels, with skill-building, games, and teamwork sessions.",
-  date: "Saturday, December 13 — 2:00 PM to 3:15 PM",
-  location: "Rutland Sports Dome — 705 Rutland Rd South",
-  image: "/WinterCamp.png", 
-  slug: "winter-youth-camp"
-}
+  {
+    title: "8 vs 8 Adult Soccer Tournament Fundraiser",
+    description:
+      "A holiday indoor tournament bringing the community together to support youth soccer camps. Open to adult players of all experience levels. Balanced teams, competitive games, and a great cause.",
+    date: "Sunday, December 28 — 4:00 PM to 8:00 PM",
+    location: "Rutland Dome — 705 Rutland Rd North",
+    image: "/WinterSoccer.png",
+    slug: "winter-adult-tournament"
+  }
 ];
 
 
@@ -45,7 +45,7 @@ export default function UpcomingEvents() {
           >
             <Card className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow bg-white h-full flex flex-col
             pt-0">
-              <div className="relative w-full h-60">
+              <div className="relative w-full h-80">
                 <Image
                   src={event.image}
                   alt={event.title}
