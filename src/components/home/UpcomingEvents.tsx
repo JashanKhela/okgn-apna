@@ -13,7 +13,7 @@ const events = [
       "A holiday indoor tournament bringing the community together to support youth soccer camps. Open to adult players of all experience levels. Balanced teams, competitive games, and a great cause.",
     date: "Sunday, December 28 — 4:00 PM to 8:00 PM",
     location: "Rutland Dome — 705 Rutland Rd North",
-    image: "/WinterSoccer.png",
+    image: "/Winter.png",
     slug: "winter-adult-tournament"
   }
 ];
