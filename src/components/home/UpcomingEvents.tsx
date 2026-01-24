@@ -7,16 +7,19 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const events = [
-{
-  title: "Winter Youth Soccer Camp – December 13th!",
-  description:
-    "Join us indoors at Rutland Sports Dome for a fun and engaging soccer camp for kids aged 5–14. Perfect for all levels, with skill-building, games, and teamwork sessions.",
-  date: "Saturday, December 13 — 2:00 PM to 3:15 PM",
-  location: "Rutland Sports Dome — 705 Rutland Rd South",
-  image: "/WinterCamp.png", 
-  slug: "winter-youth-camp"
-}
+  {
+    title: "Apna Youth Boys & Girls Soccer Camp (8‑Week Program)",
+    description:
+      "A free indoor youth soccer camp for boys and girls aged 5–14. Held every Saturday, this 8‑week program focuses on skill development, confidence, teamwork, and enjoying the game in a positive, community‑driven environment. Open to all experience levels.",
+    date: "Every Saturday • January 24 – March 14 • 2:00 PM – 3:15 PM",
+    location: "The Rutland Dome — 705 Rutland Road North",
+    image: "/ApnaYouthCamp.jpg", // update to match the new flyer filename
+    slug: "apna-youth-soccer-camp",
+    cost: "Free",
+    ageGroup: "5–14 years",
+  },
 ];
+
 
 
 export default function UpcomingEvents() {
