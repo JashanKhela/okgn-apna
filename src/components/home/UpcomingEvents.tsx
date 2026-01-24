@@ -48,7 +48,7 @@ export default function UpcomingEvents() {
           >
             <Card className="overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow bg-white h-full flex flex-col
             pt-0">
-              <div className="relative w-full h-60">
+              <div className="relative w-full h-80">
                 <Image
                   src={event.image}
                   alt={event.title}
