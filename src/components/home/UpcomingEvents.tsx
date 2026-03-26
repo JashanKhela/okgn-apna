@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const events = [
   {
-    title: "8 vs 8 Adult Soccer Tournament Fundraiser",
+    title: "Apna Youth Boys & Girls Soccer Camp (8‑Week Program)",
     description:
       "A holiday indoor tournament bringing the community together to support youth soccer camps. Open to adult players of all experience levels. Balanced teams, competitive games, and a great cause.",
     date: "Sunday, December 28 — 4:00 PM to 8:00 PM",
@@ -26,6 +26,7 @@ const events = [
   slug: "basketball-tournament",
 }
 ];
+
 
 
 export default function UpcomingEvents() {
