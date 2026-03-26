@@ -15,7 +15,16 @@ const events = [
     location: "Rutland Dome — 705 Rutland Rd North",
     image: "/Winter.png",
     slug: "winter-adult-tournament"
-  }
+  },
+  {
+  title: "3 on 3 Basketball Tournament and Youth Skills Camp",
+  description:
+    "A full day of basketball in Kelowna featuring a youth skills camp, a 3 on 3 tournament, cash prizes, and community energy. Adult and high school teams are welcome.",
+  date: "Saturday, May 2",
+  location: "705 Kitch Road, Kelowna",
+  image: "/BasketballTournamentPoster.jpeg",
+  slug: "basketball-tournament",
+}
 ];
 
 
